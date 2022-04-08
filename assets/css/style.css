@@ -1,0 +1,14 @@
+/* Headings and body */
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#name-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
