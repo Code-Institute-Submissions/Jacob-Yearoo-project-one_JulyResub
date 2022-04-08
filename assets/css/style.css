@@ -2,13 +2,52 @@
 
 h1, h2 {
     font-family: 'Montserrat', sans-serif;
+    color: #3a3a3a;
 }
 
 body {
     font-family: 'Lato', sans-serif;
+    color: #3a3a3a;
 }
 
 #name-title {
     text-transform: uppercase;
     letter-spacing: 2px;
+    text-align: center;
+    font-size: 350%;
+    margin-top: 150px;
+
 }
+
+#job-title {
+    text-align: center;
+    font-size: 200%;
+    letter-spacing: 2px;
+    margin-top: -5px;
+}
+
+#navigation {
+    float: right;
+    font-size: 150%;
+    letter-spacing: 2px;
+    color: #3a3a3a;
+}
+
+#navigation li {
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#header-box {
+    background-color: aqua;
+    padding-bottom: 70px;
+}
+
+/* Background image */
+
