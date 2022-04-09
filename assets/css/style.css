@@ -45,9 +45,15 @@ body {
 }
 
 #header-box {
-    background-color: aqua;
+    background-color: rgba(130, 129, 127, 0.7);
     padding-bottom: 70px;
 }
 
 /* Background image */
 
+body {
+    background-image: url(../images/sincerely-media-dln9ARqL6iQ-unsplashGREY.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
