@@ -85,3 +85,20 @@ body {
     object-fit: fill;
     border-radius: 50%;
 }
+
+/* Skills */
+
+.columns {
+    display: flex;
+    
+}
+
+.col {
+    width: 33.333%;
+}
+
+#main-content {
+    left: 50%;
+    top: 120%;
+    position: absolute;
+}
