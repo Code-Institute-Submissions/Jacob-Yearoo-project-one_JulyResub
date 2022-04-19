@@ -98,7 +98,34 @@ body {
 }
 
 #main-content {
-    left: 50%;
-    top: 120%;
+    /* left: 50%; */
+    top: 110%;
     position: absolute;
+    width: 100%;
+    /* margin-left: -300px; */
+    border: 5px solid #3d3d3d;
+    padding: 50px;
+}
+
+/* Footer */
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #3a3a3a;
+    text-align: center;
+    color: white;
+}
+
+/* about me */
+
+#about {
+    top: 150%;
+    position: absolute;
+    /* left: 20%; */
+    width: 100%;
+    border: 5px solid #3d3d3d;
+    padding: 50px;
 }
