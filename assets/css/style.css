@@ -32,6 +32,8 @@ body {
     margin-top: -5px;
 }
 
+/* Links and navigation */
+
 #navigation {
     float: right;
     font-size: 150%;
@@ -51,6 +53,11 @@ body {
     text-decoration: none;
     color: inherit;
 }
+
+a:visited { 
+    text-decoration: none; 
+    color: #3a3a3a; 
+   }
 
 #header-box {
     background-color: rgba(130, 129, 127, 0);
@@ -122,6 +129,17 @@ body {
     background-color: rgba(130, 129, 127, 0.95);
     text-align: center;
     color: white;
+    border: 2px solid #3d3d3d;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 2rem;
+    padding: 40px 80px;
+    
 }
 
 /* about me */
@@ -148,7 +166,8 @@ body {
     width: 100%;
     border-radius: 5px;
     margin-top: 400px;
-    margin-bottom: 50px;
+    margin-bottom: 145px;
+    
 }
 
 
