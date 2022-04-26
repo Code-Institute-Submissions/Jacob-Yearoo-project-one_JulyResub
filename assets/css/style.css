@@ -13,6 +13,7 @@ body {
     font-family: 'Lato', sans-serif;
     color: #3a3a3a;
     margin: 0 auto;
+    /* overflow-x: hidden; */
 }
 
 #name-title {
@@ -35,12 +36,12 @@ body {
 /* Links and navigation */
 
 #navigation {
-    float: right;
-    font-size: 150%;
-    letter-spacing: 2px;
+    /* float: right; */
+    /* font-size: 150%; */
+    /* letter-spacing: 2px; */
     color: #3a3a3a;
-    position: relative;
-    bottom: 270px;
+    /* position: relative; */
+    /* bottom: 270px; */
 }
 
 #navigation li {
@@ -126,6 +127,8 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
+    max-width: 5000px;
+    min-width: 320px;
     background-color: rgba(130, 129, 127, 0.95);
     text-align: center;
     color: white;
@@ -199,8 +202,8 @@ body {
 
 #contact-heading {
     color: white;
-    margin-right: 173px;
     letter-spacing: 0.33ch;
+    font-size: 3rem;
 
 }
 
@@ -208,7 +211,10 @@ input {
     margin: 0.5rem;
     padding: 0.5rem;
     border: 2px solid #3d3d3d;
-    margin-right: 151px;
+}
+
+#user_email {
+    padding-right: 70px;
 }
 
 textarea {
@@ -219,7 +225,12 @@ textarea {
 #submit {
     cursor: pointer;
     text-transform: uppercase;
-    margin-right: 262px;
+    padding: 0.5rem 30px;
+}
+
+::placeholder {
+    text-transform: uppercase;
+    font-size: 1rem;
 }
 
 /* Media Queries */
@@ -243,10 +254,55 @@ textarea {
 
 @media screen and (max-width: 950px) {
     .columns {
-        flex-direction: column;
+        /* flex-direction: column; */
+        display: block;
     }
 
     #main-content {
         overflow-wrap: break-word;
+    }
+ 
+}
+
+@media screen and (max-width: 600px) {
+    .social-networks i {
+        font-size: 1.5rem;
+        padding: 20px 40px;
+    }
+
+    #navigation {
+        font-size: 100%;
+
+    }
+  
+}
+
+@media screen and (max-width: 450px) {
+    #self-div {
+        width: 200px;
+        height: 200px;
+    }
+  
+}
+
+@media screen and (max-width: 350px) {
+    .social-networks i {
+        font-size: 1.25rem;
+        padding: 10px 20px;
+    }
+  
+}
+
+
+/* media query for nav */
+
+
+@media screen and (min-width: 600px) {
+    #navigation {
+    float: right;
+    font-size: 150%;
+    letter-spacing: 2px;
+    position: relative;
+    bottom: 270px;
     }
 }
