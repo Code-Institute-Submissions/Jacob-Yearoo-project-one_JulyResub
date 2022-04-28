@@ -3,7 +3,21 @@
 
 Project one - static front end website
 
-This is a website I made, that will act as a portfolio of my work as the number of projects I work on increase, i'm hoping that it will act as a good reference point for employers to make an accurate estimate of my ability. it also includes a small section about me and a contact form in case they want to get in touch.
+This is a website I made, that will act as a portfolio of my work as the number of projects I work on increase, I'm hoping that it will act as a good reference point for employers to make an accurate estimate of my ability. it also includes a small section about me and a contact form in case they want to get in touch.
+
+It aims to showcase myself and the work I have done so that employers/recruiters can quickly gather what information they need without any back and forth between myself and the user.
+
+The Value that I will get out of this website is:
+
+- Build my personal brand
+- Have a platform that is fluid and can be updated alongside my progress
+- It'll make getting in contact a simple process
+
+The Value that visitors will get from this site are:
+
+- An insight in to who I am as a person
+- A simple way to contact me
+- A list of projects and collaborations that will be constantly updated
 
 
 ## Demo
@@ -15,7 +29,11 @@ https://jacob-yearoo.github.io/project-one/
 
 ![Live GIF](https://i.imgur.com/mgP6ESe.gif)
 
+![Main Page](https://i.imgur.com/sYycmAL.png?2)
 
+![About me](https://i.imgur.com/NNoYI3D.png?1)
+
+![Contact form](https://i.imgur.com/u2Zma2k.png?1)
 ## User Experience
 
 ### The Strategy
@@ -30,7 +48,13 @@ I wanted the page to flow in a way that everything you saw made sense in that or
 
 ### The Skeleton
 
-*TBA*
+[Main Structure Wireframe](https://imgur.com/mTDNT7v/)
+
+[Header and Nav Wireframe](https://imgur.com/Jwhzacq)
+
+[Content Wireframe](https://imgur.com/RcG6rho)
+
+[Contact Form Wireframe](https://imgur.com/2k0t6BM)
 
 ### The Surface
 
@@ -58,6 +82,8 @@ I opted to keep all of the content simple Grey/White to provide a contrast and m
 
 **Font Awesome:** Used for the social media icons in the footer.
 
+**Google Maps:** Used Maps to get my location and add it into an Iframe.
+
 
 
 
@@ -67,5 +93,43 @@ The website does achieve the intended goal of showcasing my skills and experienc
 
 If the user finds they want to know more about me all the social media links work as intended and open in a new tab for ease of access. Furthermore the contact form makes use of the "Required" attribute, so that the user need to fill in all the information specified.
 
-The site was tested on Chrome, Firefox, Edge and Safari to ensure the desired outcome now matter where it is being viewing from, I also adjusted the site
+The site was tested on Chrome, Firefox, Edge and Safari to ensure the desired outcome no matter where it is being viewed from, I also adjusted the site to remain readable on different screen sizes (going from my 5120px wide screen, to regular full HD screens, to tablets and finally to phones with the Iphone 5 being the lowest size I made adjustments for)
 
+
+
+
+
+
+## Bugs
+
+![Bugs table](https://i.imgur.com/2otWxYt.png)
+## Deployment
+
+
+This site is hosted using GitHub pages, To set up GitHub pages you must;
+
+1. Go into the repository of your choice
+2. Find the "Settings" tab and then scroll down to the "Pages" tab
+3. Select the "main" branch from your root directory
+4. Then click Save.
+
+
+
+
+## GitPod Commits
+
+The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
+## Credits
+
+### Content
+All content on the website has been written by me.
+
+### Media
+The background image was supplied by [Unsplash](https://unsplash.com/) the self-portrait was taken by myself with a mono filter applied to keep the simplified look and feel of the website.
+
+### Acknowledgements
+Received a lot of tips and tricks on my CSS from Kevin Powell's Youtube channel. can be found [here.](https://www.youtube.com/kepowob)
+
+[Haley Schafer's](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive#testing) README for this project was used as a template for me to follow along with, as it was done so well.
+
+Special thanks to the Tutors at Code Institute for the support they've given.

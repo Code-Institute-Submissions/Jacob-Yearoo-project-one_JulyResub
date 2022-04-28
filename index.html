@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Online Portfolio for Jacob Yearoo - a web developer">
     <meta name="keywords" content="Web developer, portfolio, CV, Jacob Yearoo, full stack">
-
+<!-- links to style sheet, icons and fonts -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,17 +16,18 @@
     <title>Jacob Yearoo Portfolio - Web Developer</title>
 </head>
 <body>
+    <!-- Header and Nav -->
     <header>
         <div id="header-box">
             <h1 id="name-title">Jacob Yearoo</h1>
-            <h2 id="job-title">Web developer</h2>
+            <h2 id="job-title">Web Developer</h2>
         <nav id="navigation">
             <ul>
                 <li>
                     <a href="contact.html" aria-label="jump to contact form">Contact Me</a>
                 </li>
                 <li>
-                    <a href="#skills" aria-label="jump to Skills section">Skills</a>
+                    <a href="#main-content" aria-label="jump to Skills section">Skills</a>
                 </li>
                 <li>
                     <a href="#about" aria-label="jump to About section">About</a>
@@ -39,14 +40,24 @@
         </div>
     
     </header>
-    <section>
+    <!-- Main Image -->
         <div id="self-div">
             <img src="assets/images/hero-image.jpg" alt="self-portrait of young man smiling" id="self">
         </div>
+    <!-- About me section -->
+    <section>
+            <div id="about">
+                <div id="about-text">
+                    <h3>About Me</h3>
+                    <p>Hi There!<br> My name is Jacob, I'm currently working as a Call Centre manager at Hastings Direct, focusing on achieving KPIs in a very target driven enviroment, I spend most of my time having 1-2-1 conversations with colleagues in order to help them improve, whether this be through coaching them or managing their behaviours. Alongside this I am currently studying a Full Stack Developer Course through Code Institute, where I am learning the ropes with both front-end, and back-end systems.</p>
+                    <p>I am adept in HTML, CSS, Javascript and Python. I'm deeply devoted to providing a great user experience, and ever expanding my repertoire. So please if you're interested don't hesitate to get in touch!. </p>
+                </div>    
+            </div>
     </section>
+    <!-- Skills section -->
     <section>
         <div class="columns" id="main-content">
-            <span class="col">
+            <div class="col">
                 <h3>Skills</h3>
                 <p>
                     <ul>
@@ -56,35 +67,27 @@
                         <li>Developing people to push past their own limits through delegation and responsibilities.</li>
                         <li>Entry level knowledge in HTML, CSS, Javascript & Python.</li>
                     </ul>
-                </p>
-            </span>
-            <span class="col">
+            </div>
+            <div class="col">
                 <h3>Experience</h3>
                 <p>
                     <p><strong>Inventory Control - Disney Store European distribution centre</strong> <br>June 2016 - May 2017</p>
                     <p><strong>Sales Representative - Hastings Direct</strong> <br>May 2017 - Novemeber 2018</p>
-                    <p><strong>Call centre Manager - Hastings Direct</strong> <br>Novemeber 2018 - Ongoing</p>
-                </p>
-            </span>
+                    <p><strong>Call Centre Manager - Hastings Direct</strong> <br>Novemeber 2018 - Ongoing</p>
+            </div>
         </div>
     </section>
-    <section>
-        <div id="about">
-            <div id="about-text">
-                <h3>About Me</h3>
-                <p>Hi There! I'm Jacob, a 24 year old man that's basically obsessed with everything tech, from a young age I've been fascinated in computers and the unlimited potential they hold, I'll be honest video games was my introduction to this obsession and I'd be lying if I said I don't still play video games most days, when I'm not doing that however, I'm spending my time with my family, whether that be hikes or road trips to the beach, I always want to be doing something. after years of wanting to jump into software I finally took the plunge and <strong>oh</strong> was it worth it, the more I progress through my course the more you'll see pop up on this webpage. </p>
-            </div>    
-        </div>
-    </section>
+    <!-- Google maps embed -->
     <section>
         <div id="iframe-header-div">
-        <h3 id="iframe-header">Where i'm based</h3>
+        <h3 id="iframe-header">Where to Find Me</h3>
         </div>
         <div>
-            <iframe id="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18296.369256893286!2d-1.20755174923219!3d52.60502676765528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48775e7725c67749%3A0xb175222c8c557e82!2sLeicester%20LE19%204BT!5e0!3m2!1sen!2suk!4v1650389887889!5m2!1sen!2suk" width="100%" height="400" style="border: 2px solid #3d3d3d; border-right-width: 0px;
+            <iframe id="frame" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d38741.172694310946!2d-1.1661194001420996!3d52.636071938042925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1651153624406!5m2!1sen!2suk" width="100" height="400" style="border: 2px solid #3d3d3d; border-right-width: 0px;
             border-left-width: 0px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
+    <!-- footer social links -->
     <footer>
         <div id="footer">
             <ul class="social-networks">

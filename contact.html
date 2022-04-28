@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Online Portfolio for Jacob Yearoo - a web developer">
     <meta name="keywords" content="Web developer, portfolio, CV, Jacob Yearoo, full stack">
-
+<!-- links to style sheet, icons and fonts -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,10 +16,11 @@
     <title>Jacob Yearoo Portfolio - Web Developer</title>
 </head>
 <body>
+    <!-- Header and Navigation -->
     <header>
         <div id="header-box">
             <h1 id="name-title">Jacob Yearoo</h1>
-            <h2 id="job-title">Web developer</h2>
+            <h2 id="job-title">Web Developer</h2>
         <nav id="navigation">
             <ul>
                 <li>
@@ -37,16 +38,19 @@
             </ul>
         </nav>
         </div>
-    
     </header>
+    <!-- Contact form -->
     <section>
         <div id="contact-form">
             <h2 id="contact-heading">Contact</h2>
             <form action="https://formdump.codeinstitute.net" method="POST" class="submission">
+                <label for="name">Name</label>
                 <input type="text" name="name" id="name" placeholder="Name" required>
                 <br>
+                <label for="user_email">Email</label>
                 <input type="email" name="email" id="user_email" placeholder="Email Address" required>
                 <br>
+                <label for="message">Your Message</label>
                 <textarea name="message" id="message" placeholder="Your Message" rows="10" cols="70" required></textarea>
                 <br>
                 <input type="submit" id="submit" value="Send" >
