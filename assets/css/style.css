@@ -314,6 +314,10 @@ textarea {
     #about {
         margin-top: 60px;
     }
+
+    textarea {
+        max-width: 300px;
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -322,6 +326,9 @@ textarea {
         padding: 10px 20px;
     }
   
+    textarea {
+        max-width: 250px;
+    }
 }
 
 
