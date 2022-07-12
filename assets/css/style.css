@@ -309,6 +309,7 @@ textarea {
         padding-bottom: 100px;
         line-height: 35px;
         font-size: 15px;
+        gap: 5px;
     }
 
     #about {
