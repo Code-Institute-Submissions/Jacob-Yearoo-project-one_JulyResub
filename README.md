@@ -24,16 +24,10 @@ The Value that visitors will get from this site are:
 
 https://jacob-yearoo.github.io/project-one/
 
+![Main Page](https://i.imgur.com/rMcclIq.png)
 
+![Contact form](https://i.imgur.com/DqBXSBh.png)
 
-
-![Live GIF](https://i.imgur.com/mgP6ESe.gif)
-
-![Main Page](https://i.imgur.com/sYycmAL.png?2)
-
-![About me](https://i.imgur.com/NNoYI3D.png?1)
-
-![Contact form](https://i.imgur.com/u2Zma2k.png?1)
 ## User Experience
 
 ### The Strategy
@@ -48,11 +42,11 @@ I wanted the page to flow in a way that everything you saw made sense in that or
 
 ### The Skeleton
 
-[Main Structure Wireframe](https://imgur.com/mTDNT7v/)
+[Main Structure Wireframe](https://imgur.com/OmEeRL2)
 
-[Header and Nav Wireframe](https://imgur.com/Jwhzacq)
+[Header and Nav Wireframe](https://imgur.com/59k21By)
 
-[Content Wireframe](https://imgur.com/RcG6rho)
+[Content Wireframe](https://imgur.com/SuvUDl9)
 
 [Contact Form Wireframe](https://imgur.com/2k0t6BM)
 
