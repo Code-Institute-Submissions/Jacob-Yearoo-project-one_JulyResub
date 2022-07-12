@@ -96,7 +96,7 @@ The site was tested on Chrome, Firefox, Edge and Safari to ensure the desired ou
 
 ## Bugs
 
-![Bugs table](https://i.imgur.com/2otWxYt.png)
+![Bugs table](https://i.imgur.com/HY2TAEU.png)
 ## Deployment
 
 
